@@ -30,3 +30,26 @@ c = int(b)
 sum = a + c
 print(sum)
 
+#WAP a program to input 2 number and print their sum:-
+num1 = int(input("num1 :"))
+num2 = int(input("num2 :"))
+addition = num1 +num2
+print("the addition of these two number is :",addition) 
+
+#WAP to input side of a square and print its area:-
+side = int(input("side :"))
+permeter = 4 * side
+area = side * side
+print("the permeter of square is :",permeter)
+print("the area of square is :", area)
+
+#WAP to input 2 floating point number and print their average:-
+numf1 = float(input("numf1 :"))
+numf2 = float(input("numf2 :"))
+average = (numf1 + numf2) / 2
+print("the average is :",average)
+
+#WAP to input 2 int number a and b. Print true if a is greater than or equal to b. If not print false:-
+first = int(input("first :"))
+second = int(input("second :"))
+print(first >= second)     
