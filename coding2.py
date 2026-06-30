@@ -110,3 +110,35 @@ if(x > y):
         print("z is graetest number :",z)
 elif(y > z):
     print("y is greatest number :",y)
+
+#Lists:-
+roll_no = [98, 54, 32, 54, 89, 23]
+print(roll_no)
+print(roll_no[2]) #indexing
+print(type(roll_no)) #type list
+print(len(roll_no)) #length of list
+roll_no[3] = "87" #changment in list allowed
+print(roll_no)
+print(roll_no[1:4]) #list slicing
+print(roll_no[ :3])
+roll_no.append(100) #add one element at the end
+print(roll_no)
+print(roll_no.remove(89)) #remove any element
+print(roll_no)
+
+#Tuples:-
+tup = (34, 56, 35, 78, 89, 100)
+print(tup)
+print(tup[3]) #indexing
+print(len(tup)) #length of tuples
+print(type(tup)) #type tuples
+print(tup[2:5]) #tuples slicing
+print(tup[1:3])
+print(tup.index(78)) #finding index number
+
+#WAP to ask the user to enter name of their 3 favorite movirs and store them in list:-
+movie1 = input("enter name :")
+movie2 = input("enter name :")
+movie3 = input("enter name :")
+movie = [movie1, movie2, movie3]
+print(movie) 
